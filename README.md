@@ -33,7 +33,7 @@ pinkie is an ergonomic split keyboard designed to go wherever you do. The two ha
 ## what's in this repo
 
 ```
-/cases         STEP and STL files for the case and travel bracket
+/3D            STEP and STL files for the case and travel bracket
 /pcbs          gerber files for the PCB
 /plates        gerber files for the top plate
 /docs          documentation and build resources
@@ -56,9 +56,9 @@ README.md      you are here
 | M2x10 screws | 14 | ultra thin head recommended | [link](https://de.aliexpress.com/item/1005006332971390.html) |
 | nice!nano v2 | 2 | or compatible pinout | |
 | 3.7V lipo battery | 2 | 303450 recommended | |
-| 3D printed lipo bracket | 2 | made for 303450, but super easy to adjust | [files](/cases) |
-| 3D printed or CNC milled case | 1 left, 1 right | | [files](/cases) |
-| 3D printed travel bracket | 1 | best results with PETG as support interface when printing in PLA and vice versa. print in place magnet pockets via pausing. | [files](/cases) |
+| 3D printed lipo bracket | 2 | made for 303450, but super easy to adjust | [files](/3D) |
+| 3D printed or CNC milled case | 1 left, 1 right | | [files](/3D) |
+| 3D printed travel bracket | 1 | best results with PETG as support interface when printing in PLA and vice versa. print in place magnet pockets via pausing. | [files](/3D) |
 | round magnets 10 x 3mm | 4 | | |
 | round magnets 10 x 1mm | 4 | | |
 
