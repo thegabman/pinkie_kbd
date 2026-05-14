@@ -3,7 +3,6 @@
 ![pinkie](docs/banner.png)
 <div align="center">
 <p>a portable, wireless, ergonomic split keyboard.</p>
-<a href="https://pinkie.gabrielschmitz.de">https://pinkie.gabrielschmitz.de</a>
 </div>
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/scryagain)
@@ -19,14 +18,7 @@
 
 pinkie is an ergonomic split keyboard designed to go wherever you do. The two halves clip into a travel bracket with the keys facing inward, keeping it compact and protected on the move. It runs wirelessly on ZMK firmware with low profile gateron switches, a reversible PCB that builds both halves from a single board, and a case you can 3D print or CNC mill yourself.
 
-- **portable** — both halves clip into a bracket, keys facing inward
-- **wireless** — ZMK firmware, bluetooth 5
-- **switches** — gateron KS-33 low profile
-- **solder or hot-swap** — same PCB supports both, north orientation for hot-swap, south for direct solder
-- **reversible PCB** — same board builds both halves, top plate too
-- **battery powered** — 3.7V lipo
-- **case** — available as STEP and STL for 3D printing or CNC milling
-- **hand solderable** — alternative hand wiring design available soon
+For more information visit ["https://pinkie.gabrielschmitz.de"](https://pinkie.gabrielschmitz.de)
 
 ---
 
