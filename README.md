@@ -38,8 +38,8 @@ README.md      you are here
 
 | part | quantity | notes | link |
 |------|----------|-------|------|
-| pinkie PCB | 2 | order from gerber files, same board for both halves | [files](/pcbs) |
-| pinkie top plate | 2 | order from gerber files, same plate for both halves | [files](/plates) |
+| pinkie PCB (1.6mm) | 2 | order from gerber files, same board for both halves | [files](/pcbs) |
+| pinkie top plate (1.2mm) | 2 | order from gerber files, same plate for both halves | [files](/plates) |
 | Gateron KS-33 switches | 52 | low profile | [link](https://www.gateron.com/products/gateron-ks-33-low-profile-20-strawberry-chocolate-linear-switch-set?VariantsId=11590) |
 | Gateron low profile hot swap sockets 2.0 | 52 | optional | [link](https://www.gateron.com/products/gateron-low-profile-switch-hot-swap-pcb-socket?VariantsId=10234) |
 | diodes | 52 | 1N4148W SOD-123 | [link](https://www.lcsc.com/product-detail/C81598.html) |
