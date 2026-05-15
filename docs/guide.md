@@ -1,7 +1,5 @@
 # Build Guide
 
------
-
 ## Tools and Supplies
 
 - Soldering iron + solder
