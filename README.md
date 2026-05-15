@@ -58,12 +58,12 @@ README.md      you are here
 
 -----
 
-## Guide
+## Build Guide
 
 > [!CAUTION]
 > **Pre-validation release.** The guide has not been validated against a physical build yet. Steps may change. Photos will be added.
 
-→ <docs/guide.md>
+[Build Guide](docs/guide.md)
 
 -----
 
