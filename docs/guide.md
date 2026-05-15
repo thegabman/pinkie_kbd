@@ -1,5 +1,9 @@
 # Build Guide
 
+This guide assumes you have basic soldering experience. Take your time, double-check polarities, and test early.
+
+-----
+
 ## Tools and Supplies
 
 - Soldering iron + solder
@@ -7,7 +11,8 @@
 - Flush cutters
 - M2 x 0.4 pitch tap + handle
 - Superglue
-- 3D printer or at least the printed parts
+- Multimeter (recommended)
+- 3D printer
 
 -----
 
@@ -28,7 +33,7 @@ Print the travel bracket from `/cases`. This print requires you to pause mid-pri
 - **First pause** — drop in 2 magnets, resume print
 - **Second pause** — drop in the remaining 2 magnets, resume print
 - The remaining layers will lock them in place
-- Best results: print the bracket in PLA with PETG as the support interface material (or vice versa) — the two materials don’t bond well to each other, making supports easy to remove cleanly
+- Best results: print the bracket in PLA with PETG as the support interface material (or vice versa). The two materials don’t bond well to each other, making supports easy to remove cleanly
 
 -----
 
@@ -38,7 +43,7 @@ Print the following from `/cases`:
 
 - Case left
 - Case right
-- Spacer (2x) — can also be laser cut from EVA foam
+- Spacer (2x), can also be laser cut from EVA foam
 - Lipo bracket (2x)
 
 -----
@@ -60,7 +65,7 @@ Attach the 10 x 1mm magnets to the bottom of each top plate using superglue.
 > [!CAUTION]
 > **Check polarity before gluing.** Hold the top plate over the travel bracket and confirm the magnets attract. Once glued they cannot be removed without damage.
 
-- Place the spacer on the top plate to use as a positioning guide — the magnet pockets in the spacer show exactly where the magnets go
+- Place the spacer on the top plate to use as a positioning guide. The magnet pockets in the spacer show exactly where the magnets go
 - Apply a small drop of superglue to each pocket
 - Press magnet in, hold for 30 seconds
 - Let cure fully before continuing
@@ -73,7 +78,7 @@ Attach the 10 x 1mm magnets to the bottom of each top plate using superglue.
 
 Solder all 52 diodes to the PCB.
 
-- Diodes are **1N4148W SOD-123** — surface mount, directional
+- Diodes are **1N4148W SOD-123**, surface mount, directional
 - Match the cathode line on the diode to the marking on the PCB
 - Solder one pad first, reflow to align, then solder the second
 
@@ -86,7 +91,7 @@ Solder all 52 diodes to the PCB.
 Solder the JST 1.25mm 2P connector to the battery pads.
 
 > [!TIP]
-> If you skip the JST connector you can solder the battery wires directly in step 12 — but the connector makes it much easier to disconnect the battery later.
+> If you skip the JST connector you can solder the battery wires directly in step 12, but the connector makes it much easier to disconnect the battery later.
 
 `[photo placeholder — JST connector placement]`
 
@@ -96,7 +101,7 @@ Solder the JST 1.25mm 2P connector to the battery pads.
 
 Solder the reset button to the PCB.
 
-Not strictly required — you can also reset by briefly shorting the reset pads — but the button makes flashing much easier.
+Not strictly required. You can also reset by briefly shorting the reset pads, but the button makes flashing much easier.
 
 -----
 
@@ -104,7 +109,7 @@ Not strictly required — you can also reset by briefly shorting the reset pads 
 
 If you are going the hot-swap route, solder the Gateron low profile 2.0 hot-swap sockets now. Correct socket orientation is marked on the PCB silkscreen.
 
-Skip this step if you are soldering switches directly — you will do that in step 12.
+Skip this step if you are soldering switches directly. You will do that in step 12.
 
 `[photo placeholder — hot-swap socket orientation]`
 
@@ -126,9 +131,9 @@ Before soldering the MCU to the board, flash it and confirm it works.
 Solder the MCU to the PCB.
 
 > [!IMPORTANT]
-> Solder the MCU directly to the PCB — do not use low profile sockets. The MCU must sit flush so the USB-C port aligns correctly with the case cutout. A case variant with a different USB-C cutout placement is in the making.
+> Solder the MCU directly to the PCB. Do not use low profile sockets. The MCU must sit flush so the USB-C port aligns correctly with the case cutout. A case variant with a different USB-C cutout placement is in the making.
 
-- Confirm orientation before soldering — the USB-C port must face the correct edge
+- Confirm orientation before soldering. The USB-C port must face the correct edge
 - Place a strip of kapton tape on the PCB where the MCU will sit to prevent shorts
 - Push pin headers through from the opposite side of the PCB
 - Place the MCU on top and solder one side completely
@@ -147,7 +152,7 @@ Solder the MCU to the PCB.
 
 Before assembling, test every key position by shorting the switch pads with tweezers while the keyboard is connected.
 
-Use a keyboard tester ([keyboard-test.com](https://keyboard-test.com) or similar) to confirm every key registers. Fix any cold joints or missed diodes now — it is much harder after assembly.
+Use a keyboard tester ([keyboard-test.com](https://keyboard-test.com) or similar) to confirm every key registers. Fix any cold joints or missed diodes now. It is much harder after assembly.
 
 `[photo placeholder — testing matrix with tweezers]`
 
@@ -160,14 +165,14 @@ Use a keyboard tester ([keyboard-test.com](https://keyboard-test.com) or similar
 1. Place the PCB on a flat surface, components facing down
 1. Place the spacer on top of the PCB
 1. Place the top plate on top of the spacer
-1. Push all switches through the top plate into the sockets — confirm each one clicks in fully
+1. Push all switches through the top plate into the sockets. Confirm each one clicks in fully
 
 **If soldering switches directly:**
 
 1. Place all switches into the top plate, pins facing up
 1. Lay the top plate face down on a flat surface
 1. Place the spacer on top
-1. Place the PCB on top of the spacer, components facing you — align all switch pins through the PCB holes
+1. Place the PCB on top of the spacer, components facing you. Align all switch pins through the PCB holes
 1. Confirm alignment, then solder all switches
 
 `[photo placeholder — switch and top plate assembly]`
@@ -189,7 +194,7 @@ Use a keyboard tester ([keyboard-test.com](https://keyboard-test.com) or similar
 1. Place the lipo into the bracket
 1. Lower the PCB + spacer + top plate assembly into the case
 1. Screw down with M2 x 10mm screws (14 total, 7 per half)
-1. Do not overtighten — the threads are in printed plastic
+1. Do not overtighten. The threads are in printed plastic
 
 `[photo placeholder — PCB in case before screwing down]`
 
@@ -203,7 +208,7 @@ Put your keycaps on. Low profile keycaps for Gateron KS-33 switches.
 
 ## Step 16 — Repeat for Second Half
 
-Build the second half following the same steps. All parts except the case are reversible — the PCB, top plate, spacer and lipo bracket are all the same. Only the case has a left and right variant.
+Build the second half following the same steps. All parts except the case are reversible. The PCB, top plate, spacer and lipo bracket are all the same. Only the case has a left and right variant.
 
 -----
 
@@ -212,7 +217,7 @@ Build the second half following the same steps. All parts except the case are re
 Pair via bluetooth. The left half is the central, the right half is the peripheral.
 
 > [!NOTE]
-> The keyboard has no physical power switch. The default firmware puts both halves into soft off by holding ESC for 5 seconds. Press any key to wake — each half needs to be woken separately.
+> The keyboard has no physical power switch. The default firmware puts both halves into soft off by holding ESC for 5 seconds. Press any key to wake. Each half needs to be woken separately.
 
 Clip both halves into the travel bracket when you head out. Enjoy your keyboard at home and on the go.
 
